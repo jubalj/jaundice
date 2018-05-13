@@ -4,6 +4,7 @@
   "theme_color": "rgba(243,178,33,0.73)",
   "background_color": "#243a4b",
   "display": "standalone",
+  "orientation": "landscape",
   "Scope": "/",
   "start_url": "/",
   "icons": [

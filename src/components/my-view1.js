@@ -18,14 +18,14 @@ class MyView1 extends PageViewElement {
       ${SharedStyles}
       <section>
         <h2>Term jaundice threshold</h2>
-        <p><img height="500" width="400" src="/images/jaundice/38.png"></p>
+        <p><img height="400" width="500" src="/images/jaundice/38.png"></p>
       </section>
       <section>
         <h2>Welcome</h2>
-        <p>This is a quick resource to view the bilirubin treatment thresholds based of the <a href="https://www.nice.org.uk/guidance/cg98/evidence/full-guideline-pdf-245411821#page=37">NICE jaundice guidelines</a>.</p>
-        <p>y axis is the serum bilirubin measurement. x axis is the time (in days) since birth.</p>
+        <p>This is a quick resource to view the bilirubin treatment thresholds based on the <a href="https://www.nice.org.uk/guidance/cg98/evidence/full-guideline-pdf-245411821#page=37">NICE jaundice guidelines</a>.</p>
+        <p>The "y" axis is the serum bilirubin measurement. "x" axis is the time (in days) since birth.</p>
         <p>Phototherapy is recommended above for bilirubin levels above the blue line and the red line is the exchange therapy threshold.</P>
-
+        <p><a href="http://www.ikariaaust.com/sites/default/files/downloads/7328MAL%20Jaundice_web.pdf">Click here for parent information about jaundice</a>
 
       </section>
     

@@ -18,7 +18,7 @@ class MyView36 extends PageViewElement {
       ${SharedStyles}
       <section>
         <h2>36 week Jaundice Threshold</h2>
-        <p><img height="500" width="400" src="/images/jaundice/36.png"></p>
+        <p><img height="400" width="500" src="/images/jaundice/36.png"></p>
         </section>
     `;
   }
