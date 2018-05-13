@@ -12,25 +12,16 @@ import { html } from '@polymer/lit-element';
 import { SharedStyles } from './shared-styles.js';
 import { PageViewElement } from './page-view-element.js';
 
-class MyView1 extends PageViewElement {
+class MyView33 extends PageViewElement {
   _render(props) {
     return html`
       ${SharedStyles}
       <section>
-        <h2>Term jaundice threshold</h2>
-        <p><img height="500" width="400" src="/images/jaundice/38.png"></p>
-      </section>
-      <section>
-        <h2>Welcome</h2>
-        <p>This is a quick resource to view the bilirubin treatment thresholds based of the <a href="https://www.nice.org.uk/guidance/cg98/evidence/full-guideline-pdf-245411821#page=37">NICE jaundice guidelines</a>.</p>
-        <p>y axis is the serum bilirubin measurement. x axis is the time (in days) since birth.</p>
-        <p>Phototherapy is recommended above for bilirubin levels above the blue line and the red line is the exchange therapy threshold.</P>
-
-
-      </section>
-    
+        <h2>33 week Jaundice Threshold</h2>
+        <p><img height="500" width="400" src="/images/jaundice/33.png"></p>
+        </section>
     `;
   }
 }
 
-window.customElements.define('my-view1', MyView1);
+window.customElements.define('my-view33', MyView33);

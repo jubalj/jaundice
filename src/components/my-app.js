@@ -179,11 +179,12 @@ class MyApp extends connect(store)(LitElement) {
       <nav class="toolbar-list">
         <a selected?="${_page === 'view1'}" href="/view1">Term</a>
         <a selected?="${_page === 'view37'}" href="/view37">37 weeks</a>
-        <a selected?="${_page === 'view36'}" href="/view1">36 weeks</a>
-        <a selected?="${_page === 'view1'}" href="/view35">35 weeks</a>
-        <a selected?="${_page === 'view1'}" href="/view34">34 weeks</a>
-        <a selected?="${_page === 'view1'}" href="/view33">33 weeks</a>
-        <a selected?="${_page === 'view1'}" href="/view32">32 weeks</a>
+        <a selected?="${_page === 'view36'}" href="/view36">36 weeks</a>
+        <a selected?="${_page === 'view35'}" href="/view35">35 weeks</a>
+        <a selected?="${_page === 'view34'}" href="/view34">34 weeks</a>
+        <a selected?="${_page === 'view33'}" href="/view33">33 weeks</a>
+        <a selected?="${_page === 'view32'}" href="/view32">32 weeks</a>
+
           </nav>
     </app-header>
 
@@ -193,7 +194,12 @@ class MyApp extends connect(store)(LitElement) {
       <nav class="drawer-list">
         <a selected?="${_page === 'view1'}" href="/view1">Term</a>
         <a selected?="${_page === 'view37'}" href="/view37">37 weeks</a>
-        <a selected?="${_page === 'view3'}" href="/view3">View Three</a>
+        <a selected?="${_page === 'view36'}" href="/view36">36 weeks</a>
+        <a selected?="${_page === 'view35'}" href="/view35">35 weeks</a>
+        <a selected?="${_page === 'view34'}" href="/view34">34 weeks</a>
+        <a selected?="${_page === 'view33'}" href="/view33">33 weeks</a>
+        <a selected?="${_page === 'view32'}" href="/view32">32 weeks</a>
+
       </nav>
     </app-drawer>
 
@@ -201,7 +207,12 @@ class MyApp extends connect(store)(LitElement) {
     <main class="main-content">
       <my-view1 class="page" active?="${_page === 'view1'}"></my-view1>
       <my-view37 class="page" active?="${_page === 'view37'}"></my-view37>
-      <my-view3 class="page" active?="${_page === 'view3'}"></my-view3>
+      <my-view36 class="page" active?="${_page === 'view36'}"></my-view36>
+      <my-view35 class="page" active?="${_page === 'view35'}"></my-view35>
+      <my-view34 class="page" active?="${_page === 'view34'}"></my-view34>
+      <my-view33 class="page" active?="${_page === 'view33'}"></my-view33>
+      <my-view32 class="page" active?="${_page === 'view32'}"></my-view32>
+
       <my-view404 class="page" active?="${_page === 'view404'}"></my-view404>
     </main>
 

@@ -39,8 +39,20 @@ const loadPage = (page) => async (dispatch) => {
       case 'view37':
       await import('../components/my-view37.js');
       break;
-    case 'view3':
-      await import('../components/my-view3.js');
+    case 'view36':
+      await import('../components/my-view36.js');
+      break;
+      case 'view35':
+      await import('../components/my-view35.js');
+      break;
+      case 'view34':
+      await import('../components/my-view34.js');
+      break;
+      case 'view33':
+      await import('../components/my-view33.js');
+      break;
+      case 'view32':
+      await import('../components/my-view32.js');
       break;
     default:
       page = 'view404';
