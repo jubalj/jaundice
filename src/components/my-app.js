@@ -177,17 +177,21 @@ class MyApp extends connect(store)(LitElement) {
 
       <!-- This gets hidden on a small screen-->
       <nav class="toolbar-list">
-        <a selected?="${_page === 'view1'}" href="/view1">View One</a>
-        <a selected?="${_page === 'view2'}" href="/view2">View Two</a>
-        <a selected?="${_page === 'view3'}" href="/view3">View Three</a>
-      </nav>
+        <a selected?="${_page === 'view1'}" href="/view1">Term</a>
+        <a selected?="${_page === 'view2'}" href="/view37">37 weeks</a>
+        <a selected?="${_page === 'view3'}" href="/view36">36 weeks</a>
+        <a selected?="${_page === 'view1'}" href="/view35">35 weeks</a>
+        <a selected?="${_page === 'view1'}" href="/view34">34 weeks</a>
+        <a selected?="${_page === 'view1'}" href="/view33">33 weeks</a>
+        <a selected?="${_page === 'view1'}" href="/view32">32 weeks</a>
+          </nav>
     </app-header>
 
     <!-- Drawer content -->
     <app-drawer opened="${_drawerOpened}"
         on-opened-changed="${e => store.dispatch(updateDrawerState(e.target.opened))}">
       <nav class="drawer-list">
-        <a selected?="${_page === 'view1'}" href="/view1">View One</a>
+        <a selected?="${_page === 'view1'}" href="/view1">Term</a>
         <a selected?="${_page === 'view2'}" href="/view2">View Two</a>
         <a selected?="${_page === 'view3'}" href="/view3">View Three</a>
       </nav>
