@@ -17,8 +17,8 @@ class MyView37 extends PageViewElement {
     return html`
       ${SharedStyles}
       <section>
-        <h2>Static page</h2>
-        <p>This is a text-only page.</p>
+        <h2>37 week Jaundice Threshold</h2>
+        <p><img height="500" width="400" src="/images/jaundice/37.png"></p>
         </section>
     `;
   }

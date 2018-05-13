@@ -178,8 +178,8 @@ class MyApp extends connect(store)(LitElement) {
       <!-- This gets hidden on a small screen-->
       <nav class="toolbar-list">
         <a selected?="${_page === 'view1'}" href="/view1">Term</a>
-        <a selected?="${_page === 'view2'}" href="/view37">37 weeks</a>
-        <a selected?="${_page === 'view3'}" href="/view36">36 weeks</a>
+        <a selected?="${_page === 'view37'}" href="/view37">37 weeks</a>
+        <a selected?="${_page === 'view36'}" href="/view1">36 weeks</a>
         <a selected?="${_page === 'view1'}" href="/view35">35 weeks</a>
         <a selected?="${_page === 'view1'}" href="/view34">34 weeks</a>
         <a selected?="${_page === 'view1'}" href="/view33">33 weeks</a>
@@ -192,7 +192,7 @@ class MyApp extends connect(store)(LitElement) {
         on-opened-changed="${e => store.dispatch(updateDrawerState(e.target.opened))}">
       <nav class="drawer-list">
         <a selected?="${_page === 'view1'}" href="/view1">Term</a>
-        <a selected?="${_page === 'view2'}" href="/view2">View Two</a>
+        <a selected?="${_page === 'view37'}" href="/view37">37 weeks</a>
         <a selected?="${_page === 'view3'}" href="/view3">View Three</a>
       </nav>
     </app-drawer>
@@ -200,13 +200,13 @@ class MyApp extends connect(store)(LitElement) {
     <!-- Main content -->
     <main class="main-content">
       <my-view1 class="page" active?="${_page === 'view1'}"></my-view1>
-      <my-view2 class="page" active?="${_page === 'view2'}"></my-view2>
+      <my-view37 class="page" active?="${_page === 'view37'}"></my-view37>
       <my-view3 class="page" active?="${_page === 'view3'}"></my-view3>
       <my-view404 class="page" active?="${_page === 'view404'}"></my-view404>
     </main>
 
     <footer>
-      <p>Made with &lt;3 by the Polymer team.</p>
+      <p>Designed and developed by Dr Jubal John.</p>
     </footer>
 
     <snack-bar active?="${_snackbarOpened}">
