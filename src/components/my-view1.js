@@ -20,7 +20,7 @@ class MyView1 extends PageViewElement {
         <h2>Term jaundice threshold</h2>
         <p><picture>  
             <source media="(min-width: 500px)"
-            srcset="images/jaundice/38.png" />
+            srcset="images/jaundice/38_landscape.png" />
         <img src="/images/jaundice/38_medium.png">
   </picture></p>
       </section>

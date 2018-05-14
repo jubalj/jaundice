@@ -20,7 +20,7 @@ class MyView35 extends PageViewElement {
         <h2>35 week Jaundice Threshold</h2>
         <p><picture>  
             <source media="(min-width: 500px)"
-            srcset="images/jaundice/35.png" />
+            srcset="images/jaundice/35_landscape.png" />
         <img src="/images/jaundice/35_medium.png">
   </picture></p>
 
